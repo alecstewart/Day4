@@ -1,0 +1,200 @@
+*{box-sizing: border-box;
+}
+
+  header {
+    background-color: rgb(242, 242, 242);
+    display: block;
+    width: 100%auto;
+    height: 5.5em;
+    }
+  .container {
+    width: 80%;
+    height: 4px;
+    margin: 0 auto;
+    background-color: rgb(255,0,0);
+    }
+    #logo {
+      transform: scale(0.4);
+      margin-left: -9em;
+      padding-top: 4px;
+      padding-left: 2em;
+      }
+    #search {
+      transform: scale(0.6);
+      float: right;
+      padding-right: 25px;
+      padding-top: 4px;
+    }
+
+    .col1 {
+      display: block;
+      width: 20%;
+      float:left;
+    }
+
+    .col2{
+      width:60%;
+      float:left;
+      font-size: 1.5em;
+    }
+
+    .col2 > div {
+      display:inline-block;
+    }
+
+    .col3{
+      display: block;
+      width:20%;
+      float:right;
+      padding-top: 14px;
+    }
+    .transp {
+        width: 80%;
+        height: 5.25em;
+        margin: 0 auto;
+        background-color: rgb(242, 242, 242);
+    }
+    .home {
+      color: red;
+      margin-right: 1px;
+      padding-left: 15px;
+      padding-top: 33px;
+      }
+    .portfolio {
+      color: black;
+      margin-right: 1px;
+      padding-left: 15px;
+      padding-top: 33px;
+      }
+    .about {
+      color: black;
+      margin-right: 1px;
+      padding-left: 15px;
+      padding-top: 33px;
+      }
+    .contact {
+      color: black;
+      margin-right: 1px;
+      padding-left: 15px;
+      padding-top: 33px;
+      }
+    .detb {
+      background-color: transparent;
+      color: rgb(74, 74, 74);
+      padding-top: 80px;
+      width: 100%;
+      font-size: 3.5em;
+      font-family: 'Creepster', cursive;
+      }
+    .vertical-container {
+      height: 0%;
+      display: -webkit-flex;
+      display:         flex;
+      -webkit-align-items: center;
+              align-items: center;
+      -webkit-justify-content: center;
+              justify-content: center;
+      }
+      .detb2 {
+        background-color: transparent;
+        color: rgb(74, 74, 74);
+        padding-top: 50px;
+        width: 100%;
+        font-size: 1.5em;
+        }
+      .detb3 {
+        background-color: transparent;
+        color: rgb(74, 74, 74);
+        padding-top: 32px;
+        padding-bottom: 80px;
+        width: 100%;
+        font-size: 1.5em;
+        }
+
+      .grid {
+        display: flex;
+        width: 80%;
+        margin: auto;
+        height: 32em;
+        }
+
+        .picc1{
+          display: flex;
+          flex: 2;
+          flex-wrap: wrap;
+          padding: 10px;
+
+          #a1 {
+            flex: 1;
+            min-width: 100%;
+            margin-bottom: 20px;
+            }
+          #a2 {
+            flex: 1.2;
+            margin-right:10px;
+            }
+          #a3 {
+            flex: 1.8;
+            margin-left: 10px;
+            }
+          }
+        .picc2{
+          display: flex;
+          flex: 1;
+          flex-wrap: wrap;
+          padding: 10px;
+
+            #b1 {
+              flex: 1;
+              min-width: 100%;
+              margin-bottom: 20px;
+              }
+            #b2 {
+              flex: 1;
+              }
+            }
+      footer{
+        width: 80%;
+        margin: auto;
+        height: 15em;
+        margin-top: 9em;
+        padding: .75em;
+        background-color: transparent;
+      }
+      .textbox1{
+        float:left;
+        background-color: transparent;
+        font-size: 1.5em;
+        height: 200px;
+        width: 320px;
+      }
+      .textbox2{
+        float:right;
+        background-color: transparent;
+        height: 200px;
+        width: 73%;
+        font-size: 1.5em;
+      }
+      .texthead1{
+        color: red;
+        font-size: 1em;
+      }
+      .texthead2{
+        color: rgb(74, 74, 74);
+        font-size: 1em;
+      }
+      .textbody{
+        padding-top: 10px;
+        -webkit-column-count: 3;
+        -moz-column-count: 3;
+        column-count: 3;
+      }
+      .coll1{
+        width: 100%;
+        color: gray;
+        background-color: transparent;
+        padding:12px;
+      }
+      #projects{
+        color: rgb(74, 74, 74);
+      }

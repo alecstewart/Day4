@@ -1,8 +1,17 @@
 *{box-sizing: border-box;
 }
 
+$Color1: #4a4a4a;
+$Color2: #f2f2f2;
+$Color3: #ff0000;
+$Color4: #000;
+
+@mixin flexbox{
+  display: flex;
+}
+
   header {
-    background-color: rgb(242, 242, 242);
+    background-color: $Color2;
     display: block;
     width: 100%auto;
     height: 5.5em;
@@ -11,7 +20,7 @@
     width: 80%;
     height: 4px;
     margin: 0 auto;
-    background-color: rgb(255,0,0);
+    background-color: $Color3;
     }
     #logo {
       transform: scale(0.4);
@@ -52,28 +61,28 @@
         width: 80%;
         height: 5.25em;
         margin: 0 auto;
-        background-color: rgb(242, 242, 242);
+        background-color: $Color2;
     }
     .home {
-      color: red;
+      color: $Color3;
       margin-right: 1px;
       padding-left: 15px;
       padding-top: 33px;
       }
     .portfolio {
-      color: black;
+      color: $Color4;
       margin-right: 1px;
       padding-left: 15px;
       padding-top: 33px;
       }
     .about {
-      color: black;
+      color: $Color4;
       margin-right: 1px;
       padding-left: 15px;
       padding-top: 33px;
       }
     .contact {
-      color: black;
+      color: $Color4;
       margin-right: 1px;
       padding-left: 15px;
       padding-top: 33px;
@@ -97,14 +106,14 @@
       }
       .detb2 {
         background-color: transparent;
-        color: rgb(74, 74, 74);
+        color: $Color1;
         padding-top: 50px;
         width: 100%;
         font-size: 1.5em;
         }
       .detb3 {
         background-color: transparent;
-        color: rgb(74, 74, 74);
+        color: $Color1;
         padding-top: 32px;
         padding-bottom: 80px;
         width: 100%;
@@ -112,14 +121,14 @@
         }
 
       .grid {
-        display: flex;
+        @include flexbox;
         width: 80%;
         margin: auto;
         height: 32em;
         }
 
         .picc1{
-          display: flex;
+          @include flexbox;
           flex: 2;
           flex-wrap: wrap;
           padding: 10px;
@@ -139,7 +148,7 @@
             }
           }
         .picc2{
-          display: flex;
+          @include flexbox;
           flex: 1;
           flex-wrap: wrap;
           padding: 10px;
@@ -176,11 +185,11 @@
         font-size: 1.5em;
       }
       .texthead1{
-        color: red;
+        color: $Color3;
         font-size: 1em;
       }
       .texthead2{
-        color: rgb(74, 74, 74);
+        color: $Color1;
         font-size: 1em;
       }
       .textbody{
@@ -191,10 +200,9 @@
       }
       .coll1{
         width: 100%;
-        color: gray;
         background-color: transparent;
         padding:12px;
       }
       #projects{
-        color: rgb(74, 74, 74);
+        color: $Color1;
       }
